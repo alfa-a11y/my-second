@@ -4,133 +4,140 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#07111f">
-<title>Alfar Ahamed | Electrical & Electronics Technician</title>
-<meta name="description" content="Personal portfolio of Alfar Ahamed, an electrical maintenance and electronics technician.">
+<meta name="theme-color" content="#08111f">
+<meta name="description" content="Alfar Ahamed — Electrical Maintenance and Electronics Technician from Batticaloa, Sri Lanka.">
+<title>Alfar Ahamed | Personal CV & Portfolio</title>
+
 <style>
 :root {
-  --bg:#07111f;
-  --panel:#101e30;
-  --blue:#38bdf8;
-  --text:#f1f5f9;
-  --muted:#a8b7ca;
+  --bg: #08111f;
+  --panel: #101d30;
+  --blue: #38bdf8;
+  --text: #f1f5f9;
+  --muted: #a8b7ca;
+  --border: #26384e;
 }
-* { box-sizing:border-box; }
-html { scroll-behavior:smooth; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
-  margin:0;
-  background:var(--bg);
-  color:var(--text);
-  font-family:Arial,Helvetica,sans-serif;
-  line-height:1.7;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
 }
-a { color:var(--blue); text-decoration:none; }
-a:hover { text-decoration:underline; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
 header {
-  position:sticky;
-  top:0;
-  z-index:10;
-  background:#07111fee;
-  border-bottom:1px solid #233247;
-  padding:14px 6%;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:16px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px 7%;
+  background: #08111ff5;
+  border-bottom: 1px solid var(--border);
 }
-.logo { font-size:22px; font-weight:800; }
-.logo span { color:var(--blue); }
-nav { display:flex; flex-wrap:wrap; gap:18px; }
-nav a { color:var(--text); font-size:14px; }
-main, footer { max-width:1050px; margin:auto; padding:0 24px; }
+.logo { font-size: 23px; font-weight: 800; color: white; }
+.logo span, h1 span, h2 span { color: var(--blue); }
+nav { display: flex; flex-wrap: wrap; gap: 17px; }
+nav a { color: var(--text); font-size: 13px; }
+main, footer { max-width: 1050px; margin: auto; padding: 0 24px; }
 .hero {
-  min-height:78vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:flex-start;
-  padding-top:70px;
-  padding-bottom:70px;
+  min-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 70px 0;
 }
 .eyebrow {
-  color:var(--blue);
-  letter-spacing:3px;
-  text-transform:uppercase;
-  font-size:12px;
-  font-weight:bold;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 h1 {
-  font-size:clamp(42px,8vw,76px);
-  line-height:1.08;
-  margin:16px 0;
-  letter-spacing:-2px;
+  margin: 15px 0;
+  font-size: clamp(45px, 9vw, 82px);
+  line-height: 1.05;
+  letter-spacing: -2px;
 }
-h1 span { color:var(--blue); }
-.hero p { color:var(--muted); max-width:650px; font-size:18px; }
-.actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:20px; }
+h2 { font-size: 31px; margin: 0 0 25px; }
+h3 { line-height: 1.35; }
+.hero h3 { font-size: 20px; margin: 0; }
+.hero p { max-width: 650px; font-size: 18px; }
+p { color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
 .btn {
-  display:inline-block;
-  border:1px solid var(--blue);
-  border-radius:8px;
-  padding:11px 18px;
-  color:var(--text);
-  font-weight:bold;
-  background:transparent;
-  cursor:pointer;
-  font-size:14px;
+  display: inline-block;
+  padding: 11px 17px;
+  border: 1px solid var(--blue);
+  border-radius: 8px;
+  color: var(--text);
+  background: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
 }
-.btn.primary { background:var(--blue); color:#07111f; }
-section { padding:65px 0; border-top:1px solid #233247; }
-h2 { font-size:30px; margin:0 0 24px; }
-h2 span { color:var(--blue); }
-p { color:var(--muted); }
+.btn.primary { color: #07111f; background: var(--blue); }
+section { padding: 65px 0; border-top: 1px solid var(--border); }
 .grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  gap: 17px;
 }
 .card {
-  background:var(--panel);
-  border:1px solid #25364a;
-  border-radius:12px;
-  padding:22px;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--panel);
 }
-.card h3 { margin-top:0; font-size:18px; }
-.card p { margin-bottom:0; font-size:14px; }
+.card h3 { margin-top: 0; }
+.card p { font-size: 14px; }
 .tag {
-  display:inline-block;
-  padding:6px 10px;
-  border:1px solid #2d4961;
-  border-radius:20px;
-  margin:4px;
-  color:#c8eaff;
-  font-size:13px;
+  display: inline-block;
+  margin: 4px;
+  padding: 6px 11px;
+  border: 1px solid #2c4c66;
+  border-radius: 30px;
+  color: #c8eaff;
+  font-size: 13px;
 }
-.date { color:var(--blue); font-size:13px; font-weight:bold; }
-footer { padding-top:30px; padding-bottom:35px; text-align:center; }
-.small { font-size:13px; color:var(--muted); }
-@media(max-width:600px) {
-  header { align-items:flex-start; flex-direction:column; }
-  nav { gap:12px; }
-  .hero { min-height:auto; padding-top:85px; padding-bottom:70px; }
-  section { padding:45px 0; }
+.date { color: var(--blue); font-size: 13px; font-weight: bold; }
+.contact-item { overflow-wrap: anywhere; }
+.small { color: var(--muted); font-size: 12px; }
+footer { padding-top: 25px; padding-bottom: 30px; text-align: center; }
+
+@media (max-width: 600px) {
+  header { flex-direction: column; align-items: flex-start; }
+  nav { gap: 12px; }
+  .hero { min-height: auto; padding: 75px 0; }
+  section { padding: 45px 0; }
+  h2 { font-size: 27px; }
 }
 @media print {
-  header,.actions,footer { display:none; }
-  body { background:white; color:black; }
-  main { max-width:none; }
-  section,.hero { padding:20px 0; min-height:0; }
-  .card { background:white; color:black; border:1px solid #bbb; }
-  p,.small { color:#333; }
-  .tag { color:black; }
+  body { color: #111; background: white; }
+  header, .actions, footer { display: none !important; }
+  main { max-width: none; }
+  .hero, section { min-height: 0; padding: 20px 0; }
+  .card { background: white; border-color: #bbb; break-inside: avoid; }
+  p, .small { color: #333; }
+  h1 span, h2 span, .date, .eyebrow { color: #087eaf; }
+  a { color: #111; }
+  .tag { color: #111; border-color: #aaa; }
 }
 </style>
 </head>
-<body>
 
+<body>
 <header>
   <a class="logo" href="#home">ALFAR<span>.</span></a>
-  <nav>
+  <nav aria-label="Main navigation">
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#experience">Experience</a>
@@ -141,16 +148,17 @@ footer { padding-top:30px; padding-bottom:35px; text-align:center; }
 
 <main>
   <div class="hero" id="home">
-    <div class="eyebrow">Personal Portfolio / Sri Lanka</div>
+    <div class="eyebrow">Personal Portfolio · Sri Lanka</div>
     <h1>ALFAR<br><span>AHAMED</span></h1>
-    <h3>Electrical Maintenance & Electronics Technician</h3>
+    <h3>Electrical Maintenance &amp; Electronics Technician</h3>
     <p>
-      A technically minded professional interested in electrical
-      maintenance, electronics, troubleshooting, automation and
-      practical engineering solutions.
+      A technically minded professional with training in electronic
+      appliance technology and practical industrial maintenance.
+      Interested in electrical troubleshooting, industrial equipment,
+      electronics, automation and engineering solutions.
     </p>
     <div class="actions">
-      <a class="btn primary" href="#experience">View My Experience</a>
+      <a class="btn primary" href="#experience">My Experience</a>
       <a class="btn" href="#contact">Contact Me</a>
       <button class="btn" onclick="window.print()">Print / Save as PDF</button>
     </div>
@@ -160,12 +168,16 @@ footer { padding-top:30px; padding-bottom:35px; text-align:center; }
     <div class="eyebrow">01 / Introduction</div>
     <h2>About <span>Me</span></h2>
     <p>
-      I have a background in electronic appliance technology and
-      practical industrial training in electrical and electronics
-      maintenance. My technical interests include fault finding,
-      motor maintenance, CCTV systems, solar equipment and industrial
-      automation. I aim to develop my skills and contribute to safe,
-      reliable and efficient technical operations.
+      I have an educational background in electronic appliance
+      technology and hands-on industrial training in electrical and
+      electronics maintenance. My experience and interests include
+      three-phase motor maintenance, CCTV wiring, solar equipment,
+      industrial machinery and PLC-based processes.
+    </p>
+    <p>
+      I aim to continue developing my technical knowledge, improve
+      my troubleshooting abilities and contribute to safe, reliable
+      and efficient engineering operations.
     </p>
   </section>
 
@@ -177,14 +189,17 @@ footer { padding-top:30px; padding-bottom:35px; text-align:center; }
       <span class="tag">Electronic Troubleshooting</span>
       <span class="tag">Three-Phase Motors</span>
       <span class="tag">CCTV Wiring</span>
-      <span class="tag">Solar Systems</span>
+      <span class="tag">Solar Equipment</span>
       <span class="tag">PLC Fundamentals</span>
-      <span class="tag">Industrial Equipment</span>
+      <span class="tag">Industrial Machinery</span>
       <span class="tag">Fault Finding</span>
       <span class="tag">Electrical Safety</span>
       <span class="tag">Basic Automation</span>
+      <span class="tag">Preventive Maintenance</span>
     </div>
-    <p class="small">Keep only the skills you can confidently demonstrate.</p>
+    <p class="small">
+      Only list skills that you can confidently demonstrate to an employer.
+    </p>
   </section>
 
   <section id="experience">
@@ -192,22 +207,25 @@ footer { padding-top:30px; padding-bottom:35px; text-align:center; }
     <h2>Work <span>Experience</span></h2>
     <div class="grid">
       <article class="card">
-        <div class="date">Current / Verify dates</div>
+        <div class="date">Current · Confirm dates</div>
         <h3>Electrician</h3>
-        <p><strong>Brandix — Batticaloa area</strong></p>
+        <p><strong>Brandix — Batticaloa area, Sri Lanka</strong></p>
         <p>
-          Electrical maintenance role. Add your exact responsibilities,
-          equipment maintained, troubleshooting work and achievements.
+          Electrical maintenance role. Add your actual duties,
+          equipment serviced, safety responsibilities and
+          troubleshooting achievements here.
         </p>
       </article>
+
       <article class="card">
-        <div class="date">Feb – Aug 2025</div>
-        <h3>Electrical & Electronics Maintenance Trainee</h3>
+        <div class="date">February – August 2025</div>
+        <h3>Electrical &amp; Electronics Maintenance Trainee</h3>
         <p><strong>Ultra Aluminium (Pvt) Ltd</strong></p>
         <p>
-          Industrial training involving electrical maintenance,
-          three-phase motor replacement, CCTV wiring, solar equipment,
-          machinery and exposure to PLC-based processes.
+          Completed practical industrial training involving
+          three-phase motor replacement, CCTV wiring and network
+          rewiring, solar equipment, machinery maintenance and
+          exposure to PLC-controlled processes.
         </p>
       </article>
     </div>
@@ -215,47 +233,79 @@ footer { padding-top:30px; padding-bottom:35px; text-align:center; }
 
   <section id="education">
     <div class="eyebrow">04 / Qualifications</div>
-    <h2>Education & <span>Training</span></h2>
+    <h2>Education &amp; <span>Training</span></h2>
     <div class="grid">
       <article class="card">
         <h3>NVQ Level 4</h3>
-        <p>Electronic Appliance Technician</p>
-        <p>Technical college training in Batticaloa.</p>
+        <p><strong>Electronic Appliance Technician</strong></p>
+        <p>Manchanthoduwai Technical College</p>
+        <p>Vocational education and practical technical training.</p>
       </article>
+
       <article class="card">
         <h3>G.C.E. Advanced Level</h3>
         <p>Technology stream</p>
-        <p>Reported results: C2S.</p>
+        <p>Results: C2S (as provided).</p>
       </article>
+
       <article class="card">
         <h3>G.C.E. Ordinary Level</h3>
-        <p>Reported results: 2A, 3B, 4C.</p>
+        <p>Results: 2A, 3B, 4C (as provided).</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="interests">
+    <div class="eyebrow">05 / Technical Interests</div>
+    <h2>What I <span>Enjoy</span></h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Electronics</h3>
+        <p>Electronic devices, circuit troubleshooting and repair.</p>
+      </article>
+      <article class="card">
+        <h3>Automation</h3>
+        <p>PLC systems, sensors, control systems and practical automation.</p>
+      </article>
+      <article class="card">
+        <h3>IoT &amp; Technology</h3>
+        <p>Microcontrollers, ESP32 projects and connected devices.</p>
       </article>
     </div>
   </section>
 
   <section id="contact">
-    <div class="eyebrow">05 / Get in touch</div>
+    <div class="eyebrow">06 / Get in touch</div>
     <h2>Contact <span>Me</span></h2>
     <div class="card">
       <p>
-        I am interested in suitable opportunities in electrical
+        I am interested in suitable career opportunities in electrical
         maintenance, electronics and technical services.
       </p>
-      <p>Email: <a href="mailto:YOUR_EMAIL@example.com">
-        Add your email address</a></p>
-      <p>Phone: Add your phone number</p>
-      <p>Location: Batticaloa, Sri Lanka</p>
+      <p class="contact-item">
+        <strong>Email:</strong>
+        <a href="mailto:alfarahamed66@gmail.com">
+          alfarahamed66@gmail.com
+        </a>
+      </p>
+      <p class="contact-item">
+        <strong>Phone:</strong>
+        <a href="tel:+94781477424">0781477424</a>
+      </p>
+      <p><strong>Location:</strong> Batticaloa, Sri Lanka</p>
       <p class="small">
-        Replace the example email and phone details before publishing.
+        Please contact me regarding relevant technical opportunities.
       </p>
     </div>
   </section>
 </main>
 
 <footer>
-  <p class="small">© <span id="year"></span> Alfar Ahamed · Personal Portfolio</p>
+  <p class="small">
+    © <span id="year"></span> Alfar Ahamed · Personal Portfolio
+  </p>
 </footer>
+
 <script>
 document.getElementById("year").textContent = new Date().getFullYear();
 </script>
